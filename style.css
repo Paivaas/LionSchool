@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;      
+}
+
+body{}
+/*---------------------------*/
+
+header{
+    background-color: #3347B0;
+    height: 10vh;
+    overflow: hidden;
+}
+.menu-conteiner{
+    display: flex;
+    padding: 4px 0px 0px 96px;
+    color: white;
+}
+  
+.titulo{
+    padding: 14px 0px 0px 4px;
+    width: 49px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.login{
+    display: flex;
+    padding: 14px 96px 0px 82%;
+}
+.vector{
+    padding: 5px 0px 0px 4px;
+}
+.Sair{
+    padding: 14px 0px 0px 4px;
+    font-weight: 600;
+}
+
+
+/*---------------------------*/
+
+
+main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.conteudo-conteiner{
+    width: 100%;
+    background-color: plum;
+    margin: 70px;
+    display: flex;
+}
+.parte1{
+    background-color: red;
+    width: 33.5%;
+
+}
+.parte2{
+    background-color: blue;
+    width: 33.5%;
+    padding: 20px 20px 60px 70px;
+    
+
+}
+.cursos{
+    background-color: green;
+    width: 33.5%;
+
+}
+
+/*---------------------------*/
+
+
+footer{
+    background-color: #3347B0;
+    height: 10vh;
+    
+}
+.fim{
+    text-align: center;
+    color: white;
+   
+}
+
+/*---------------------------*/
