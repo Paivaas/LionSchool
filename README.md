@@ -6,4 +6,5 @@
 
 ------
 
-![capa](https://github.com/Paivaas/LionSchool/assets/123731976/2e020369-f40f-408e-8f0b-dff378ad1dda)
+
+![capa](https://github.com/Paivaas/LionSchool/assets/123731976/2a58fa3b-704d-45a1-b12e-6c550744442f)
