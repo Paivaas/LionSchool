@@ -7,7 +7,8 @@
     font-family: 'Roboto', sans-serif;      
 }
 
-body{}
+body{
+}
 /*---------------------------*/
 
 header{
@@ -17,7 +18,7 @@ header{
 }
 .menu-conteiner{
     display: flex;
-    padding: 4px 0px 0px 96px;
+    padding: 4px 0px 0px 200px;
     color: white;
 }
   
@@ -30,13 +31,14 @@ header{
 
 .login{
     display: flex;
-    padding: 14px 96px 0px 82%;
+    padding: 14px 96px 0px 74%;
+    gap: 10px;
 }
 .vector{
     padding: 5px 0px 0px 4px;
 }
 .Sair{
-    padding: 14px 0px 0px 4px;
+    padding: 14px 0px 0px 0px;
     font-weight: 600;
 }
 
@@ -51,26 +53,69 @@ main{
 }
 .conteudo-conteiner{
     width: 100%;
-    background-color: plum;
     margin: 70px;
+    padding-left: 130px;
     display: flex;
 }
 .parte1{
-    background-color: red;
     width: 33.5%;
 
 }
+h1{
+height: 47%;
+font-size: 60px;
+font-weight: 500;
+
+}
+span{
+    color: #3347B0;
+    font-weight: bold;
+}
+
+
+
 .parte2{
-    background-color: blue;
-    width: 33.5%;
+    width: 30%;
     padding: 20px 20px 60px 70px;
     
 
 }
 .cursos{
-    background-color: green;
     width: 33.5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 5px;
 
+}
+.curso1{
+    background-color: #3347B0;
+    width: 400px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #A4ACDC;
+    display: flex;
+}
+.curso2{
+    background-color: #3347B0;
+    width: 400px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #A4ACDC;
+    
+}
+
+.caixa-cursos{
+    padding: 30px 40px 40px 50px;
+    display: flex;
+    font-size: 50px;
+    gap: 50px;
+}
+.textos{
+    padding: 40px 0px 0px 0px;
+    color: white;
+    font-weight: bolder;
+}
+.icones{
+    width: 100px;
+    height: 132px;
 }
 
 /*---------------------------*/
@@ -82,9 +127,26 @@ footer{
     
 }
 .fim{
+    padding: 30px 00px 0px 0px;
     text-align: center;
     color: white;
    
 }
 
 /*---------------------------*/
+
+
+
+.Sair:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.curso1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.curso2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
