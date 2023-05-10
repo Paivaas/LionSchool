@@ -3,4 +3,7 @@
 📝
 ### Ferramentas de apoio para o projeto: 
 - [FIGMA](https://www.figma.com/file/tLlcaTZk6CpP0tkfdCA0ET/LineSchool?type=design&t=TDRlFLLqJ5LKsuDk-0)
+
+------
+
 ![capa](https://github.com/Paivaas/LionSchool/assets/123731976/2e020369-f40f-408e-8f0b-dff378ad1dda)
