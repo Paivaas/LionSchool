@@ -2,4 +2,4 @@
 > Web Site fundamentado em construção no Figma.
 📝
 ### Ferramentas de apoio para o projeto: 
-- [FIGMA](https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0)
+- [FIGMA](https://www.figma.com/file/tLlcaTZk6CpP0tkfdCA0ET/LineSchool?type=design&t=TDRlFLLqJ5LKsuDk-0)
