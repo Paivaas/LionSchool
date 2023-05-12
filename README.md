@@ -5,6 +5,3 @@
 - [FIGMA](https://www.figma.com/file/tLlcaTZk6CpP0tkfdCA0ET/LineSchool?type=design&t=TDRlFLLqJ5LKsuDk-0)
 
 ------
-
-
-![capa](https://github.com/Paivaas/LionSchool/assets/123731976/2a58fa3b-704d-45a1-b12e-6c550744442f)
