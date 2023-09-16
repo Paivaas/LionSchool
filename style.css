@@ -2,151 +2,143 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
     font-family: 'League Spartan', sans-serif;
-    font-family: 'Roboto', sans-serif;      
+    font-family: 'Roboto', sans-serif;
 }
-
-body{
-}
-/*---------------------------*/
 
 header{
+    height: 15%;
+    padding: 12px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #3347B0;
-    height: 10vh;
-    overflow: hidden;
 }
-.menu-conteiner{
+header .conteiner{
     display: flex;
-    padding: 4px 0px 0px 200px;
-    color: white;
+    justify-content: space-between;
+    width: 80%;
+    height: 90%;
+    color: #fff;
 }
-  
-.titulo{
-    padding: 14px 0px 0px 4px;
-    width: 49px;
-    font-weight: 600;
-    font-size: large;
-}
-
-.login{
+header .conteiner .part1 , .part2{
     display: flex;
-    padding: 14px 96px 0px 74%;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
-.vector{
-    padding: 5px 0px 0px 4px;
+header .conteiner .part1 .img-logo{
+    background-image: url(./img/logo-image\ 1.svg);
+    background-size: cover;
+    width: 44px;
+    height: 54px;
 }
-.Sair{
-    padding: 14px 0px 0px 0px;
-    font-weight: 600;
+header .conteiner .part2 .img-sair{
+    background-image: url(./img/Vector\ 1.svg);
+    background-size: cover;
+    width: 38px;
+    height: 34px;
+    cursor: pointer;
 }
-
-
-/*---------------------------*/
-
-
+header .conteiner .text-name-school , .text-sair{
+    width: 52px;
+    font-weight: 500;
+}
 main{
-    height: 80vh;
-    width: 100%;
+    height: 70vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.conteudo-conteiner{
-    width: 100%;
-    margin: 70px;
-    padding-left: 130px;
+main .conteiner{
+    width: 80%;
+    height: 90%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.parte1{
-    width: 33.5%;
-
+main .conteiner .part1{
+    height: 80%;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-h1{
-height: 47%;
-font-size: 60px;
-font-weight: 500;
-
+main .conteiner .part1 .text-titlle h1{
+    font-size: 48px;
+    font-weight: 400;
 }
-span{
+main .conteiner .part1 .text-titlle span{
     color: #3347B0;
     font-weight: bold;
 }
-
-
-
-.parte2{
+main .conteiner .part1 .img-titlle{
+    background-image: url(./img/devices\ 1.svg);
+    background-size: cover;
+    width: 370px;
+    height: 222px;
+}
+main .conteiner .part2{
+    height: 70%;
     width: 30%;
-    padding: 20px 20px 60px 70px;
-    
-
 }
-.cursos{
-    width: 33.5%;
+main .conteiner .part2 .img-central{
+    background-image: url(./img/Clip\ path\ group.svg);
+    background-size: cover;
+    width: 208px;
+    height: 345px;
+    aspect-ratio: 2/5;
+    object-fit: contain;
+}
+main .conteiner .part3{
+    height: 80%;
+    width: 36%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 100px 5px;
-
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 28px;
 }
-.curso1{
+main .conteiner .part3 .item{
     background-color: #3347B0;
-    width: 400px;
-    height: 200px;
-    box-shadow: 10px 10px 5px #A4ACDC;
     display: flex;
-}
-.curso2{
-    background-color: #3347B0;
-    width: 400px;
-    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 53px;
+    padding: 36px 48px;
     box-shadow: 10px 10px 5px #A4ACDC;
-    
+    cursor: pointer;
+    transition: .2s;
 }
-
-.caixa-cursos{
-    padding: 30px 40px 40px 50px;
-    display: flex;
-    font-size: 50px;
-    gap: 50px;
+.item:hover{
+    transform: scale(1.1);
 }
-.textos{
-    padding: 40px 0px 0px 0px;
-    color: white;
-    font-weight: bolder;
+main .conteiner .part3 .item .text-curso{
+    font-weight: 600;
+    color: #fff;
+    padding: 16px;
+    font-size: 42px;
 }
-.icones{
-    width: 100px;
-    height: 132px;
+main .conteiner .part3 .item .img{
+    background-size: cover;
+    height: 70px;
+    width: 88px;
 }
-
-/*---------------------------*/
-
-
+main .conteiner .part3 .item .img.curso1{
+    background-image: url(./img/icon-dev\ 1.svg);
+}
+main .conteiner .part3 .item .img.curso2{
+    background-image: url(./img/icon-net\ 1.svg);
+}
 footer{
     background-color: #3347B0;
-    height: 10vh;
-    
-}
-.fim{
-    padding: 30px 00px 0px 0px;
-    text-align: center;
-    color: white;
-   
-}
-
-/*---------------------------*/
-
-
-
-.Sair:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.curso1:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.curso2:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
 }
