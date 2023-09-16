@@ -4,4 +4,5 @@
 #### Ferramentas de apoio para o projeto: 
 - [FIGMA](https://www.figma.com/file/tLlcaTZk6CpP0tkfdCA0ET/LineSchool?type=design&t=TDRlFLLqJ5LKsuDk-0)
 
+![ApresentaçaoDoProjeto](https://github.com/Paivaas/LionSchool/assets/123731976/4caa66bb-15fc-4dee-aebb-d7694779e86e)
 ------
